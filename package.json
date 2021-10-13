@@ -1,0 +1,24 @@
+{
+  "name": "iota-exploration",
+  "version": "1.0.0",
+  "description": "Exploration of iota frameworks",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "client": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Schereo/iota-exploration.git"
+  },
+  "author": "Tim Sigl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Schereo/iota-exploration/issues"
+  },
+  "homepage": "https://github.com/Schereo/iota-exploration#readme",
+  "dependencies": {
+    "@iota/client": "^2.1.0",
+    "dotenv": "^10.0.0"
+  }
+}
