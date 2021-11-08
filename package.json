@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "client": "node src/index.js"
+    "client": "node src/client/index.js",
+    "mam": "node src/index.js",
+    "experiment": "node src/experiment.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,9 @@
   "homepage": "https://github.com/Schereo/iota-exploration#readme",
   "dependencies": {
     "@iota/client": "^2.1.0",
+    "@iota/core": "1.0.0-beta.30",
+    "@iota/converter": "^1.0.0-beta.30",
+    "@iota/mam.js": "github:iotaledger/mam.js",
     "dotenv": "^10.0.0"
   }
 }
